@@ -6,22 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
     <title>Bazgab Blog</title>
     <style>
-		
-		.Blogtitle {
-			font-family: monospace;
-			font-size: large;
-		}
-		.body {
-			font-family: monospace;
-		}
 		
 		.nav a {
 			padding: 10px 24px;
 			font-family: Cascadia Code;
 		}
+		
+		.PostTable {
+			width: 1200px;
+			height: auto;
+			margin-left: 150px;
+			padding: 50px;
+			padding-top: 30px;
+			overflow: auto;
+			overflow-wrap: break-word;			
+			font-family: Cascadia Code;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			
+		}
+		
+		.PostTableTitle {
+			font-family: Times New Roman;
+			font-style: bold;
+			font-weight: 700;
+			font-size: 20px;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		
+		th {
+			border-collapse: collapse;
+			border-bottom: 1px solid black;
+			text-align: left;
+			padding: 8px;
+			color: white;
+		}
+		
+		td {
+			border-collapse: collapse;
+			border-bottom: 1px solid black;
+			text-align: left;
+			padding: 8px;
+		}
+		
+		.ClickableLink {
+			color: black;
+			text-decoration: none;
+			
+		}
+		
+		.ClickableLink:hover {
+			text-decoration: underline;
+		}
+		
     </style>
   </head>
   <body>
@@ -30,9 +75,26 @@
 	 </div> 
 	 <hr>
 	 <div class="nav">
-	  <a href="https://bazgab.github.io/">Home</a>
-	  <a href="mailto:gabrielbzzt@gmail.com" target="_blank" rel="nofollow">Contact</a>
+	  <a href="https://bazgab.github.io/" class="ClickableLink">Home</a>
+	  <a href="mailto:gabrielbzzt@gmail.com" target="_blank" rel="nofollow" class="ClickableLink">Contact</a>
 	 </div>
 	 <hr>
+	 
+	 <div class="PostTable">
+		<div class="PostTableTitle">
+			<h1>Index</h1>
+		</div>
+		<table>
+			<tr>
+				<th>Post Title</th>
+				<th>Date</th>
+			</tr>
+			<tr>
+				<td><a href="https://bazgab.github.io/posts/first_post.html" class="ClickableLink">First Post on the blog</a></td>
+				<td><time datetime="2025-07-15">July 15th, 2025</time></td>
+			</tr>
+			
+		</table>
+	 </div>
   </body>
 </html>
