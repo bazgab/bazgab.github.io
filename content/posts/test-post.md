@@ -2,6 +2,7 @@
 date = '2026-02-01'
 draft = true
 title = 'Test Post'
+weight = '5'
 +++
 # Test Markdown post
 
@@ -42,3 +43,23 @@ Repository priorities in effect:                                                
 18 | tools                       | tools                                        | Yes     | (r ) Yes  | No
 
 ```
+Testing tables:
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+This is a now a simple way to test footnotes[^first]
+
+[^first]: footnotes are an easy way of referencing future articles and contains other interesting information
+
+
+One of the toughest parts would be to give out warnings to certain things such as:
+
+> the only way to give out warnings is to use these big block quotes, let's see how it looks.
+
+And some more text here because why not

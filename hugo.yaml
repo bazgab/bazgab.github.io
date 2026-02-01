@@ -1,0 +1,45 @@
+baseurl: "https://bazgab.github.io/" 
+languageCode: "en-us"
+title: "Bazgab Blog"
+theme: "xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+
+
+params:
+  description: "Bazgab Personal Blog"
+  footer: "&copy; [Gabriel Bazzotti](mailto:gabriel.bazzotti@suse.com) 2025 -- {Year} | [Github](https://github.com/bazgab)"
+  
+markup:
+  highlight:
+    codeFences: true
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
