@@ -53,9 +53,10 @@ Testing tables:
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
-This is a now a simple way to test footnotes[^first]
+This is a now a simple way to test footnotes[^1]
 
-[^first]: footnotes are an easy way of referencing future articles and contains other interesting information
+[^1]: B. W. Kernighan and D. M. Ritchie, *The C programming language / ANSI C Version*. Englewood Cliffs, N.J.: Prentice Hall, 1988.
+‌
 
 
 One of the toughest parts would be to give out warnings to certain things such as:
