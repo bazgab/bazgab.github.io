@@ -1,6 +1,6 @@
 +++
 date = '2026-02-01'
-draft = true
+draft = false
 title = 'Test Post'
 weight = '5'
 +++
@@ -43,6 +43,12 @@ Repository priorities in effect:                                                
 18 | tools                       | tools                                        | Yes     | (r ) Yes  | No
 
 ```
+
+Testing image insertion:
+
+![This is an image](image1.png)
+
+
 Testing tables:
 
 ## Tables
