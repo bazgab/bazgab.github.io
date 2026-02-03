@@ -1,7 +1,7 @@
 ---
 title: "A walkthrough of Git-based Packaging workflow for OpenSUSE: Integrating Source with Open Build Service effectively"
 date: 2026-02-03
-draft: true
+draft: false
 ---
 
 #### *Note: This article has been written without the use of any LLMs or AI text generation tools*
