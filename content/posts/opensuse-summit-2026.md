@@ -14,10 +14,10 @@ I talked about git-based packaging (if interested, see the previous article) and
 
 Here are some pictures of the beautiful city and the conference
 
-![OpenSUSE Summit 2026](opensuse_summit_main.jpg)
+![OpenSUSE Summit 2026](opensuse_summit_main.JPG)
 
-![OpenSUSE Summit 2026](opensuse_summit_1.jpg)
+![OpenSUSE Summit 2026](opensuse_summit_1.JPG)
 
-![OpenSUSE Summit 2026](opensuse_summit_2.jpg)
+![OpenSUSE Summit 2026](opensuse_summit_2.JPG)
 
-![OpenSUSE Summit 2026](opensuse_summit_3.jpg)
+![OpenSUSE Summit 2026](opensuse_summit_3.JPG)
