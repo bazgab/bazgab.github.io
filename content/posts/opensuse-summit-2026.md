@@ -18,6 +18,6 @@ Here are some pictures of the beautiful city and the conference
 
 ![OpenSUSE Summit 2026](opensuse_summit_1.jpg)
 
-![OpenSUSE Summit 2026](opensuse_summit_3.jpg)
+![OpenSUSE Summit 2026](opensuse_summit_2.jpg)
 
-![OpenSUSE Summit 2026](opensuse_summit_4.jpg)
+![OpenSUSE Summit 2026](opensuse_summit_3.jpg)
