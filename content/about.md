@@ -11,7 +11,7 @@ I currently work at SUSE, and am occasionally a speaker at conferences. A full l
 
 ### Useful Links
 
-+ [Vitae](https://raw.githubusercontent.com/bazgab/bazgab.github.io/main/assets/Gabriel_Bazzotti_CV.pdf)
-+ [GitHub](https://github.com/bazgab) -  For open-source/personal repositories
++ [Vitae](https://raw.githubusercontent.com/gbzot/gbzot.github.io/main/assets/Gabriel_Bazzotti_CV.pdf)
++ [GitHub](https://github.com/gbzot) -  For open-source/personal repositories
 + [OpenSUSE Source](https://src.opensuse.org/gbazzotti) - For OpenSUSE git-based repositories I maintain
 + [OpenSUSE Open Build Service](https://build.opensuse.org/users/gbazzotti) - For traditional RPM packages I maintain  
